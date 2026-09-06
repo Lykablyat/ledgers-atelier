@@ -15,3 +15,4 @@ trigger: always_on
 2. For custom item properties, use Minecraft 1.21+ Data Components, NOT legacy NBT tags.
 3. Keep items modular: separate registries, item logic classes, and client-side rendering.
 4. Provide clean JSON data definitions for models, textures, and lang keys under src/main/resources.
+5. Always refer to the official NeoForge documentation provided in neoforge-docs folder before implementing features.

@@ -45,7 +45,12 @@ run/
 .idea/
 *.iml
 .vscode/
+.agents
 
 # OS specific
 .DS_Store
 Thumbs.db
+
+# DevAuth
+.devauth/
+devauth.toml
