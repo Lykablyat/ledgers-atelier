@@ -45,7 +45,13 @@ run/
 .idea/
 *.iml
 .vscode/
-.agents
+
+# Agent files
+.agents/rules/
+.agents/
+
+# Reference documentation
+neoforge-docs/
 
 # OS specific
 .DS_Store
