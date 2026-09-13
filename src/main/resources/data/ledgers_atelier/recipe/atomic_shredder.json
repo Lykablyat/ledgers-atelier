@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " IN",
+    "PBI",
+    "NC "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    },
+    "B": {
+      "item": "minecraft:glass_bottle"
+    },
+    "C": {
+      "item": "minecraft:chorus_fruit"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "ledgers_atelier:atomic_shredder"
+  }
+}

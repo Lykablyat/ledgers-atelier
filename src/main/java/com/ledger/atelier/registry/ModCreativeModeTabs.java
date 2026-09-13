@@ -20,6 +20,19 @@ public class ModCreativeModeTabs {
                     .icon(() -> new ItemStack(ModItems.DEBUG_GEM.get()))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.DEBUG_GEM.get());
+                        output.accept(ModItems.ATOMIC_SHREDDER.get());
+                        output.accept(ModItems.SAVE_POINT_REMOTE.get());
+                        output.accept(ModItems.CHARM_OF_PRICKLING.get());
+                        output.accept(ModItems.CHARM_OF_HUNGER.get());
+                        output.accept(ModItems.CHARM_OF_WATER.get());
+                        output.accept(ModItems.CHARM_OF_EXPLOSION.get());
+                        output.accept(ModItems.CHARM_OF_FALLING.get());
+                        output.accept(ModItems.CHARM_OF_FIRE.get());
+                        output.accept(ModItems.CHARM_OF_FREEZING.get());
+                        output.accept(ModItems.CHARM_OF_SOUND.get());
+                        output.accept(ModItems.CHARM_OF_VOID.get());
+                        output.accept(ModItems.CHARM_OF_ERAY.get());
+                        output.accept(ModItems.WINGS_OF_AN_ANGEL.get());
                     })
                     .build()
     );

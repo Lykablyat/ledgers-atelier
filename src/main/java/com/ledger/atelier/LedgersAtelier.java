@@ -1,6 +1,7 @@
 package com.ledger.atelier;
 
 import com.ledger.atelier.registry.ModCreativeModeTabs;
+import com.ledger.atelier.registry.ModDataComponents;
 import com.ledger.atelier.registry.ModItems;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
@@ -14,6 +15,7 @@ public class LedgersAtelier {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public LedgersAtelier(IEventBus modEventBus, ModContainer modContainer) {
+        ModDataComponents.register(modEventBus);
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
 

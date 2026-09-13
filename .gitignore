@@ -1,62 +1,73 @@
-### Gradle ###
-.gradle
+### Gradle & Build Artifacts ###
+.gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/**/build/
-
-### IntelliJ IDEA ###
-.idea/
-*.iws
-*.iml
-*.ipr
+bin/
 out/
 !**/src/**/out/
 
-.run/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.eclipse/
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/**/bin/
-
-### Mac OS ###
-.DS_Store
-
-### Minecraft Modding ###
+### Minecraft Modding Runtime ###
 run/
 !**/src/**/run/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
-
-# Gradle / Build artifacts
-bin/
-run/
+logs/
+crash-reports/
 *.log
 
-# IDE files
+### IDEs & Editors ###
+# IntelliJ IDEA
 .idea/
+*.iws
 *.iml
+*.ipr
+.run/
+
+# Visual Studio Code
 .vscode/
 
-# Agent files
-.agents/rules/
-.agents/
+# Eclipse
+.apt_generated
+.classpath
+.eclipse/
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
 
-# Reference documentation
+# JetBrains Fleet
+.fleet/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+### Agent & AI Assistant Files ###
+.agents/
+.gemini/
+.claude/
+.cursor/
+.cursorrules
+.windsurf/
+.copilot/
+.chat/
+
+### Reference Documentation ###
 neoforge-docs/
 
-# OS specific
+### OS Specific ###
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
 
-# DevAuth
+### DevAuth ###
 .devauth/
 devauth.toml
